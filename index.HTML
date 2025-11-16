@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!--Encabezado donde encuentro el titulo de la pagina-->
+        <meta charset="utf-8">
+        <title> Mi Primera página en HTML 5 </title>
+    </head>   
+    <body>
+    <header>    
+        <!--cuerpo de la pagina web-->
+        <h1> Miguel Steven Salazar Soto </h1>
+        <p> <em> El programador es un ser que convierte café en código. </em></p>
+        <img src="pfp.png" alt="Foto de perfil" width="150"> 
+        <nav> 
+            <!--seccion de navegacion de un punto a otro dentro de la misma pagina-->
+            <a href="#Sobre Mi" target="_self"> Ir a Sobre Mi</a><br>
+            <a href="#Intereses" target="_self"> Ir a Intereses</a>
+        </nav>  
+        </header>  
+        <!--Info hacerca del desarrollador de la página html-->
+            <section id="Sobre Mi">
+                <h2>Descripcion sobre Miguel Steven Salazar Soto</h2>
+                <p> Me presento, mi nombre es Salazar Soto Miguel Steven, tengo <mark>21 años</mark> y resido actualmente en Babahoyo - Ecuador, soy <strong>estudiante </strong> de la <strong> UTB</strong> estoy cursando por el tercer semestre en la carrerra de <strong>Sistemas de la información.</strong>
+                    Me apasiona la programación, las computadoras y todo lo relacionado con la tecnología, el estudio de la inteligencia artificial <em>(IA)</em> y entre otras cosas. 
+                 </p>
+            </section>
+            <main> 
+            <section id="Intereses">
+                <h2>Lista de intereses</h2>
+                    <!--Info en relación a intereses o logros-->
+            <ul>
+                <li>Programación</li>
+                <li>Inteligencia Artificial</li>
+                <li>Estudio de códigos y comandos</li>
+                <li>Desarrollo de programas sencillos</li>
+                <li>Corrección y enseñanza de programas a futuro</li>
+            </ul>
+            </section>
+            <table>
+                <thead>Tabla de habilidades</thead>
+                <!--Seccion de la tabla de datos o habilidades-->
+                <tr><th> Habilidades </th><th> Nivel </th></tr>
+                <tr> <td> Uso de Java</td><td>Medio-Bajo</td></tr>
+                <tr> <td> Capacidad de aprendizaje</td><td>Medio</td></tr>
+                <tr> <td> Análisis de código</td><td>Medio-Bajo</td></tr>
+                <tr> <td> Creatividad </td><td>Alto</td></tr>
+                <tfoot>
+                    <td> Cantidad de habilidades: 4 </td>
+                </tfoot>
+            </table>
+            <h2>Presentacion personal 🔊</h2>
+            <audio controls>
+                <source src="presentacionAudio.mp3" type="audio/mp3">
+                tu navegador no soporta este tipo de archivo
+            </audio>
+            <!--seccion de formulario-->
+            <form>
+                <fieldset>
+                    <legend> Formulario </legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad" min="18"><br>
+                    <label>Género:</label>
+                    <input type="radio" name="genero" value="M"> Masculino
+                    <input type="radio" name="genero" value="F"> Femenino<br>
+                    <label>Correo electronico:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label>Intereses:</label><br>
+                    <textarea name="Intereses" rows="4" cols="30">Escribe aquí...
+                    </textarea><br>
+                    <label>Comentarios:</label><br>
+                    <textarea name="Comentarios" rows="4" cols="30">Escribe aquí...
+                    </textarea><br>
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+            </main> 
+            <footer>
+                <!--Piede de pagina-->
+                © 2025. Todos los derechos reservados a <em>Miguel Steven Salazar Soto.</em>
+                <p>Contacto y red social:</p>
+                📧<a href="mailto:miguelstevensalazarsoto@gmail.com">miguelstevensalzarsoto@gmail.com</a><br>
+                📸<a href="https://www.instagram.com/sisoyyume/">Instagram</a>
+            </footer>
+</body>            
+</html>
